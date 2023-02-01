@@ -1,0 +1,30 @@
+!SESSION 2022-09-28 11:16:06.894 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-09-28 11:16:45.511
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-09-28 11:16:45.713
+!MESSAGE Log4j initialized with config file D:\sbsim\Documents\ENIB Materias\IPS\Termistance\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-09-28 11:17:02.822
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-09-28 11:17:41.399 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\sbsim\Documents\ENIB Materias\IPS\Termistance
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-09-28 11:17:46.131
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-09-28 11:17:46.204
+!MESSAGE Log4j initialized with config file D:\sbsim\Documents\ENIB Materias\IPS\Termistance\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-09-28 11:17:53.378
+!MESSAGE Started RMI Server, listening on port 41337

@@ -1,0 +1,61 @@
+09:15:11 **** Incremental Build of configuration Debug for project Termistance ****
+make -j12 all 
+arm-none-eabi-gcc -o "Termistance.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\sbsim\Documents\ENIB Materias\IPS\Termistance\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Termistance.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Termistance.elf
+ 
+arm-none-eabi-size   Termistance.elf 
+arm-none-eabi-objdump -h -S  Termistance.elf  > "Termistance.list"
+   text	   data	    bss	    dec	    hex	filename
+  37788	    500	   1932	  40220	   9d1c	Termistance.elf
+Finished building: default.size.stdout
+ 
+Finished building: Termistance.list
+ 
+09:15:33 **** Incremental Build of configuration Debug for project Termistance ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'Correcteur_PI':
+../Core/Src/main.c:476:16: warning: '%f' directive writing between 3 and 317 bytes into a region of size 7 [-Wformat-overflow=]
+  476 |  sprintf(str, "%f", Vmoy);
+      |                ^~
+../Core/Src/main.c:476:15: note: assuming directive output of 8 bytes
+  476 |  sprintf(str, "%f", Vmoy);
+      |               ^~~~
+../Core/Src/main.c:476:2: note: 'sprintf' output between 4 and 318 bytes into a destination of size 7
+  476 |  sprintf(str, "%f", Vmoy);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:511:16: warning: '%f' directive writing between 3 and 317 bytes into a region of size 7 [-Wformat-overflow=]
+  511 |  sprintf(str, "%f", Temp);
+      |                ^~
+../Core/Src/main.c:511:15: note: assuming directive output of 8 bytes
+  511 |  sprintf(str, "%f", Temp);
+      |               ^~~~
+../Core/Src/main.c:511:2: note: 'sprintf' output between 4 and 318 bytes into a destination of size 7
+  511 |  sprintf(str, "%f", Temp);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Termistance.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\sbsim\Documents\ENIB Materias\IPS\Termistance\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Termistance.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Termistance.elf
+ 
+arm-none-eabi-size   Termistance.elf 
+arm-none-eabi-objdump -h -S  Termistance.elf  > "Termistance.list"
+   text	   data	    bss	    dec	    hex	filename
+  37020	    500	   1932	  39452	   9a1c	Termistance.elf
+Finished building: default.size.stdout
+ 
+Finished building: Termistance.list
+ 
+14:20:09 **** Incremental Build of configuration Debug for project Termistance ****
+make -j12 all 
+arm-none-eabi-size   Termistance.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37020	    500	   1932	  39452	   9a1c	Termistance.elf
+Finished building: default.size.stdout
+ 
+14:21:55 **** Incremental Build of configuration Debug for project Termistance ****
+make -j12 all 
+arm-none-eabi-size   Termistance.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37020	    500	   1932	  39452	   9a1c	Termistance.elf
+Finished building: default.size.stdout
+ 
